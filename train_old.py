@@ -56,11 +56,11 @@ set_seed(args.seed)
 
 dataset = args.dataset
 if dataset == 'sysu':
-    data_path = '/home/tan/data/sysu/'
+    data_path = './sysu/'
     log_path = args.log_path + 'sysu_log/'
     test_mode = [1, 2]  # thermal to visible
 elif dataset == 'regdb':
-    data_path = '/home/tan/data/RegDB/'
+    data_path = './RegDB/'
     log_path = args.log_path + 'regdb_log/'
     test_mode = [2, 1]  # visible to thermal
 
